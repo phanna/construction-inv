@@ -1,0 +1,93 @@
+/* CSS Document url('../fonts/GOTHIC.TTF'), */
+@font-face {
+    font-family: 'tahoma';
+    src:  url('../fonts/tahoma.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@media (min-width: 768px){
+	.container {
+		/*min-width: 1000px; */
+	}
+}
+body{ 
+    /*background-image:url(../img/pattern.png);*/ 
+    background-color:#e9ebee; 
+    font-family:"tahoma"; 
+    /*min-width: 1024px;*/
+}
+.panel { border-radius: 0px;}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.navbar-default {
+    background-color: #45474D;
+    border-color: #f8f8f8;
+}
+.navbar-default .navbar-brand {
+    color: #00aba9;
+}
+.navbar-default .navbar-brand:hover {
+    color: #00ddc0 ;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #e7e7e7;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #f8f8f8;
+}
+.sub_menu{ height:40px; background-color:#f7f7f7; border-bottom:1px solid #ddd; margin-bottom:15px;}
+.navbar {
+    margin-bottom: 0px;
+}
+.company-name{ margin-top: 5px;
+    margin-bottom: 0px;}
+hr {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-top: 1px solid #ccc;
+}
+.border-top{ border-top:1px solid #ccc; margin:5px 5px; padding-top:15px;}
+/*Menu*/
+
+/*end Menu*/
+/*Custom bootstrap*/
+.modal-content , .btn, .form-control, .list-group-item:first-child{ border-radius: 0px;}
+
+/*Custom */
+.input-group-addon {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+}
+.form-control {
+    background-color: #fff;
+    border: 1px solid #ddd;
+
+}
+.btn-info {
+    background-color: #00aba9;
+    border-color: #00ddc0;
+}
+.alert-info{
+	background-color:#D0ECE7;
+	color:#16A085;
+	border-color:#76D7C4;
+	}
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open>.dropdown-toggle.btn-info {
+    background-color: teal;
+    border-color: #00aba9; /*set the color you want here*/
+}
+/*End Custom*/
+span.error{ color:red; font-weight:normal !important; font-style:italic; opacity:0.5;}
+.summary {
+    background-color: #f5f6f7;
+    font-size: 13px;
+    border-bottom: 1px solid #dadddf;
+    padding-bottom: 0;
+    overflow: visible;
+    width: auto;
+	padding-bottom:25px;
+}
+.sub_text{ color:#aaa; font-size:12px; padding:0px; margin:0px;}
+
